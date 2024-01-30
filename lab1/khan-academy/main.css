@@ -29,3 +29,106 @@ body{
 .descriptions{
     color:rgb(128, 0, 0);
 }
+
+/*lesson 3 css*/
+.recipe{
+    color:rgb(77, 0, 255);
+}
+
+.steps{
+    color:rgb(201, 0, 0);
+}
+
+.photo{
+    width:400px;
+}
+
+#lesson-three-body{
+    background-color: rgb(224,224,224);
+    padding-left: 10px;
+}
+
+/*lesson 4 css*/
+.posted{
+    color:rgb(46, 5, 252);
+    font-family:monospace;
+    font-size:12px;
+    font-weight:10px;
+    line-height: 1px;
+}
+
+#lesson-four-body{
+    background-color: rgb(224,224,224);
+    padding-left: 10px;
+}
+
+/*lesson 6 css*/
+#web-dev{
+    color:red;
+}
+
+#details-text{
+    font-size:17px;
+}
+
+#details-body{
+    float:left;
+    width:240px;
+    margin-left:10px;
+    border:solid 3px red;
+    padding-left:7px;
+    background-color:rgb(255, 190, 190);
+}
+
+.list{
+    font-family:monospace;
+}
+
+#pic{
+    position:absolute;
+    float:right;
+    top:20px;
+    right:20px;
+}
+
+#heading-one{
+    margin-left:20px;
+}
+
+#p-s{
+    margin-top:40px;
+}
+
+#waiting{
+    float:right;
+    margin-right:10px;
+}
+
+#lesson-six-body{
+    width: 600px;
+}
+
+/*lesson 7 css*/
+
+p.seven {
+    font-family: sans-serif;
+}
+
+img.seven {
+    max-width: 150px;
+}
+
+h1.seven,h2.seven {
+    font-family: fantasy;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding: 3px;
+}
+
+h1.seven:hover, h2.seven:hover {
+    background-color: rgb(248, 255, 199);
+}
+
+#lesson-seven, #lesson-seven-body{
+    position: absolute;
+    margin-top: 200px;
+}
