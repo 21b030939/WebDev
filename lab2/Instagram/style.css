@@ -1,0 +1,283 @@
+html {
+    position: relative;
+    max-width: 1512px;
+    max-height: 982px;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 180px;
+    background-color: #FAFAFA;
+}
+
+/*         Work in main page                          */
+
+#phone {
+    position: absolute;
+    left: 34.5em;
+    top: 95.42px;
+}
+#getApp {
+    position: absolute;
+    text-align: center;
+    left: 79.5em;
+    top: 599.98px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+#googlePlay {
+    position: absolute;
+    left: 63.5em;
+    top: 635.98px;
+}
+#microsoft {
+    position: absolute;
+    left: 72.5em;
+    top: 635.98px;
+}
+
+
+/*            End main page                              */
+
+
+
+
+/*              Only work on log in contents                              */
+
+.logInContainer {
+    position: relative;
+    width: 350px;
+    height: 401.98px;
+    left: 787px;
+    top: 108px;
+
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 1px;
+
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#instagram {
+    position: absolute;
+    top: 47px;
+    left: 87.5px;
+}
+.contents form input[type="email"] {
+    position: absolute;
+    height: 38px;
+    left: 41px;
+    top: 138px;
+    width: 268px;
+    outline: none;
+
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 36px;
+    color: #8E8E8E;
+}
+.contents form input[type="password"] {
+    position: absolute;
+    height: 38px;
+    left: 41px;
+    top: 187px;
+    width: 268px;
+    outline: none;
+
+
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+.contents form button {
+    position: absolute;
+    width: 273px;
+    height: 38px;
+    left: 41px;
+    top: 245px;
+
+    background: rgba(0, 149, 246, 0.7);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    transition: 0.7;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.87);
+    text-align: center;
+}
+#left {
+    position: absolute;
+    width: 106.25px;
+    height: 1px;
+    left: 41px;
+    top: 300.3px;
+
+    background: #DBDBDB;
+}
+#right {
+    position: absolute;
+    width: 106.25px;
+    height: 1px;
+    left: 202.75px;
+    top: 300.3px;
+
+    background: #DBDBDB;
+}
+.contents p {
+    position: absolute;
+    width: 19.7px;
+    height: 15px;
+    left: 165.25px;
+    top: 290.3px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    color: #8E8E8E;
+}
+.facebook {
+    position: absolute;
+    width: 268px;
+    height: 20px;
+    left: 41px;
+    top: 335.98px;
+    text-align: center;
+}
+.facebook a {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    left: 7em;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #385185;
+    text-decoration: none;
+}
+#facebook {
+    position: absolute;
+    right: 10.5em;
+}
+.forgotPassword {
+    position: absolute;
+    top: 364px;
+    left: 130px;
+    text-align: center;
+    text-decoration: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #00376B;
+}
+
+
+.contents form button:active{
+    background-color:rgb(24, 119, 242, 0.25);
+}
+.contents form button:active{
+    opacity: 1;
+    transition: 0.7;
+}
+.facebook a:active{
+    color: rgb(47, 68, 136);
+    opacity: 1;
+    transition: 0.7;
+}
+
+/*             END  email and password                 */
+
+/*            Start of new container                           */
+
+.newContainer {
+    position: relative;
+    width: 350px;
+    height: 63px;
+    left: 787px;
+    top: 120px;
+
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 1px;
+}
+.newContainer p {
+    position: absolute;
+    top: 11px;
+    left: 78px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+.newContainer a {
+    text-decoration: none;
+    color: #0095F6;
+}
+
+/*            End new container                                           */
+
+.lastContainer {
+    position: relative;
+    text-align: left;
+    left: 352px;
+    top: 24em;
+    /* border:2px solid black; */
+    width: 790px;
+    height: 23px;
+}
+.lastContainer a {
+    right: 5px;
+    margin-left: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #8E8E8E;
+}
+.lastContainer a:hover {
+    text-decoration: underline;
+}
+
+.lastContainer2 {
+    position: relative;
+    width: 731px;
+    /* border:2px solid black; */
+    height: 16px;
+    left: 361px;
+    top: 25em;
+    text-align: center;
+}
+.lastContainer2 a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8E8E8E;
+
+    margin-left: 7px;
+    text-decoration: none;
+}
