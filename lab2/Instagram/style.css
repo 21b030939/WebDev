@@ -6,7 +6,6 @@ html {
 body {
     padding: 0px;
     margin: 0px;
-    margin-left: 180px;
     background-color: #FAFAFA;
 }
 
@@ -14,13 +13,13 @@ body {
 
 #phone {
     position: absolute;
-    left: 34.5em;
+    left: 370px;
     top: 95.42px;
 }
 #getApp {
     position: absolute;
     text-align: center;
-    left: 79.5em;
+    left: 65.6em;
     top: 599.98px;
     font-family: 'Roboto';
     font-style: normal;
@@ -30,12 +29,12 @@ body {
 }
 #googlePlay {
     position: absolute;
-    left: 63.5em;
+    left: 51em;
     top: 635.98px;
-}
+}/* 9.5 */
 #microsoft {
     position: absolute;
-    left: 72.5em;
+    left: 60.6em;
     top: 635.98px;
 }
 

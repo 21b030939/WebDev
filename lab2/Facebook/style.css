@@ -3,36 +3,38 @@ body {
     background: linear-gradient(to top, #F0F2F5, white);
     height: 100%;
     min-height: 800px;
+    width: 100%;
     padding: 0px;
     margin: 0px;
-    margin-left: 250px;
-}
-
-html { 
-    overflow:  hidden; 
 }
 
 /*         Login page start                              */
 
 
-.loginPage {
-    width: 100%;
+.login-page {
+    width: 1250px;
+    height: 700px;
 }
 
 /*            This is "Facebook" logo                   */
 
-.Logo {
-    position: absolute;
+.logo{
     width: 443px;
     height: 156px;
     left: 61px;
     top: 238px;
+    position: absolute;
+}
+
+.logo__img {
+    width: 443px;
+    height: 156px;
 }
 
 
 /*              END              */
 
-#underLogo {
+#under-logo {
     position: absolute;
     width: 470px;
     height: 76px;
@@ -46,9 +48,10 @@ html {
     line-height: 38px;
     letter-spacing: 0.035em;
 }
-#underLogin {
+#under-login {
     position: absolute;
     height: 38px;
+    width: 600px;
     left: 769px;
     top: 634px;
 
@@ -59,9 +62,9 @@ html {
     line-height: 28px;
 }
 
-/*              Login container for login and password                             */
+/*              Login form for login and password                             */
 
-.loginContainer {
+.login {
     position: absolute;
     width: 482px;
     height: 418px;
@@ -73,7 +76,7 @@ html {
     border-radius: 10px;
 }
 
-.loginContainer form input[type="email"] {
+.login form input[type="email"] {
     position: absolute;
     width: 385px;
     height: 50px;
@@ -86,7 +89,7 @@ html {
     border: 0.5px solid #8A8D91;
     border-radius: 10px;
 }
-.loginContainer form input[type="password"] {
+.login form input[type="password"] {
     position: absolute;
     width: 385px;
     height: 50px;
@@ -99,7 +102,7 @@ html {
     border: 0.5px solid #8A8D91;
     border-radius: 10px;
 }
-.loginContainer form button[type="buttonLogin"]{
+.login form button[type="buttonLogin"]{
     position: absolute;
     left: 46px;
     top: 174px;
@@ -122,7 +125,7 @@ html {
 
     color: #FFFFFF;
 }
-.loginContainer form a {
+.login form a {
     position: absolute;
     width: 168px;
     height: 249px;
@@ -139,7 +142,7 @@ html {
 
     color: #1877F2;
 }
-.loginContainer form hr {
+.login form hr {
     position: absolute;
     width: 385px;
     height: 0px;
@@ -148,7 +151,7 @@ html {
 
     border: 1px solid #8A8D91;
 }
-.loginContainer form button[type="newLogin"]{
+.login form button[type="newLogin"]{
     position: absolute;
     width: 385px;
     height: 50px;
@@ -176,26 +179,26 @@ html {
 
 /*        Border change color when clicking       */
 
-.loginContainer form button[type="newLogin"]:active{
+.login form button[type="newLogin"]:active{
     background-color:rgb(66, 183, 42, 0.25);
 }
-.loginContainer form button[type="newLogin"]:hover{
+.login form button[type="newLogin"]:hover{
     opacity: 1;
 }
-.loginContainer form button[type="buttonLogin"]:active{
+.login form button[type="buttonLogin"]:active{
     background-color:rgb(24, 119, 242, 0.25);
 }
-.loginContainer form button[type="buttonLogin"]:active{
+.login form button[type="buttonLogin"]:active{
     opacity: 1;
 }
-.loginContainer form a:hover {
+.login form a:hover {
     text-decoration:underline;
 }
-.loginContainer form input[type="password"]:focus{
+.login form input[type="password"]:focus{
     border: 1px solid rgb(24, 119, 242);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 }
-.loginContainer form input[type="email"]:focus{
+.login form input[type="email"]:focus{
     border: 1px solid rgb(23, 118, 242);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 }
@@ -210,8 +213,8 @@ html {
 
 
 .contents {
-    position: relative;
-    width: 100%;
+    position: absolute;
+    width: 1250px;
     height: 277px;
     left: 0px;
     top: 803px;
