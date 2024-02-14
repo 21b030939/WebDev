@@ -18,7 +18,7 @@ body {
 
 /*            This is "Facebook" logo                   */
 
-.logo{
+.logo {
     width: 443px;
     height: 156px;
     left: 61px;
@@ -48,6 +48,7 @@ body {
     line-height: 38px;
     letter-spacing: 0.035em;
 }
+
 #under-login {
     position: absolute;
     height: 38px;
@@ -89,6 +90,7 @@ body {
     border: 0.5px solid #8A8D91;
     border-radius: 10px;
 }
+
 .login form input[type="password"] {
     position: absolute;
     width: 385px;
@@ -102,7 +104,8 @@ body {
     border: 0.5px solid #8A8D91;
     border-radius: 10px;
 }
-.login form button[type="buttonLogin"]{
+
+.login form button[type="buttonLogin"] {
     position: absolute;
     left: 46px;
     top: 174px;
@@ -125,6 +128,7 @@ body {
 
     color: #FFFFFF;
 }
+
 .login form a {
     position: absolute;
     width: 168px;
@@ -142,6 +146,7 @@ body {
 
     color: #1877F2;
 }
+
 .login form hr {
     position: absolute;
     width: 385px;
@@ -151,7 +156,8 @@ body {
 
     border: 1px solid #8A8D91;
 }
-.login form button[type="newLogin"]{
+
+.login form button[type="newLogin"] {
     position: absolute;
     width: 385px;
     height: 50px;
@@ -179,26 +185,32 @@ body {
 
 /*        Border change color when clicking       */
 
-.login form button[type="newLogin"]:active{
-    background-color:rgb(66, 183, 42, 0.25);
+.login form button[type="newLogin"]:active {
+    background-color: rgb(66, 183, 42, 0.25);
 }
-.login form button[type="newLogin"]:hover{
+
+.login form button[type="newLogin"]:hover {
     opacity: 1;
 }
-.login form button[type="buttonLogin"]:active{
-    background-color:rgb(24, 119, 242, 0.25);
+
+.login form button[type="buttonLogin"]:active {
+    background-color: rgb(24, 119, 242, 0.25);
 }
-.login form button[type="buttonLogin"]:active{
+
+.login form button[type="buttonLogin"]:active {
     opacity: 1;
 }
+
 .login form a:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
-.login form input[type="password"]:focus{
+
+.login form input[type="password"]:focus {
     border: 1px solid rgb(24, 119, 242);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 }
-.login form input[type="email"]:focus{
+
+.login form input[type="email"]:focus {
     border: 1px solid rgb(23, 118, 242);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 }
