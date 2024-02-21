@@ -25,7 +25,7 @@ list.addEventListener("click", function(ev){
 function newElement() {
     var li = document.createElement("li");
     var inputValue = document.getElementById("add-task-input").value;
-    var t =document.createTextNode(inputValue);
+    var t = document.createTextNode(inputValue);
     li.appendChild(t);
     if(inputValue === ""){
         alert("Write something!");
