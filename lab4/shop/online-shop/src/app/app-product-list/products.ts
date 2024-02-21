@@ -137,7 +137,7 @@ export const itemsList: Item[] = [
     name: "Тостер CENTEK СТ-1432 черный",
     cost: 11116,
     imagesNumber: 1,
-    images: ["https://resources.cdn-kaspi.kz/img/m/p/hc8/he7/85144525733918.jpg?format=gallery-medium",
+    images: ["https://resources.cdn-kaspi.kz/img/m/p/hde/h91/63904868630558.jpg?format=gallery-medium",
             "https://resources.cdn-kaspi.kz/img/m/p/h76/h58/63904870662174.jpg?format=gallery-medium",
             "https://resources.cdn-kaspi.kz/img/m/p/h50/h3c/63904872955934.jpg?format=gallery-medium"
   ], //{number of the image}.jpg
